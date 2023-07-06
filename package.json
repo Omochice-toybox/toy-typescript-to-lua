@@ -13,6 +13,9 @@
     "sort": "sort-package-json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "highlight.js": "^11.8.0"
+  },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.1",
     "prettier": "^3.0.0",
