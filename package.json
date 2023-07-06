@@ -8,6 +8,7 @@
   "author": "",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node src/main.ts",
     "sort": "sort-package-json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +16,7 @@
     "@tsconfig/strictest": "^2.0.1",
     "prettier": "^3.0.0",
     "sort-package-json": "^2.5.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "typescript-to-lua": "^1.16.3"
   }
