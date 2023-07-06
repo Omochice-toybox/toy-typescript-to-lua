@@ -6,6 +6,7 @@
   ],
   "compilerOptions": {
     "target": "ESNext",
+    "outDir": "dist",
     "lib": [
       "ESNext",
       "dom"
