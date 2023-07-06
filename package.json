@@ -9,6 +9,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/main.ts",
+    "format": "prettier --write src",
     "sort": "sort-package-json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
