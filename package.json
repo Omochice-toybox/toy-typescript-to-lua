@@ -8,6 +8,8 @@
   "author": "",
   "main": "index.js",
   "scripts": {
+    "build": "tstl",
+    "build:watch": "tstl --watch",
     "dev": "ts-node src/main.ts",
     "format": "prettier --write src",
     "sort": "sort-package-json",
