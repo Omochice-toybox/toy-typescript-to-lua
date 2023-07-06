@@ -10,6 +10,7 @@
   "scripts": {
     "build": "tstl",
     "build:watch": "tstl --watch",
+    "clean": "rimraf dist",
     "dev": "ts-node src/main.ts",
     "format": "prettier --write src",
     "sort": "sort-package-json",
@@ -21,6 +22,7 @@
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.1",
     "prettier": "^3.0.0",
+    "rimraf": "^5.0.1",
     "sort-package-json": "^2.5.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
